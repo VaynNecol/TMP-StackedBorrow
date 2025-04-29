@@ -1,3 +1,5 @@
+#![allow(unused_variables)]
+
 static mut ALIAS: *mut i32 = core::ptr::null_mut();
 fn main() {
     let mut l = 13;

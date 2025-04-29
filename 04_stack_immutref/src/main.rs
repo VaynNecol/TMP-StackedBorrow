@@ -1,3 +1,5 @@
+#![allow(unused_variables)]
+
 fn main() {
     let mut local = 42;
     let x = &mut local;

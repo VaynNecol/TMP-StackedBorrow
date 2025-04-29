@@ -1,3 +1,5 @@
+#![allow(unused_variables)]
+
 fn main() {
     let mut l = 13;
     let alias = &mut l as *mut i32;
